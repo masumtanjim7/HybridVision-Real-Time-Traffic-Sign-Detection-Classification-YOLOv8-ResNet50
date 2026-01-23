@@ -3,7 +3,7 @@
 HybridVision is a **real-time traffic sign recognition system** built with a **hybrid deep learning pipeline** for both **detection** and **fine-grained classification**, specially focused on **Bangladeshi road environments**.  
 It combines a YOLO detector to localize signs (bounding boxes) and a ResNet50 classifier to identify the exact traffic sign category from cropped sign regions. A confidence-based fusion strategy is used to produce stable final predictions.
 
-✅ **Custom Dataset:** 9,000+ images (Bangladeshi traffic signs)  
+✅ **Custom Dataset:** 9,133 images (Bangladeshi traffic signs)  
 ✅ **Total Classes:** 29 sign categories  
 ✅ **Trained on:** Kaggle GPU (P100)  
 ✅ **Results (reported):** **mAP 100% / Precision 100% / Recall 100% / Accuracy 99%**  
@@ -54,7 +54,7 @@ This hybrid design helps especially in:
 
 ## Key Features
 - ✅ Real-time traffic sign **detection + classification**
-- ✅ Built a **custom Bangladeshi dataset** (9,000+ images)
+- ✅ Built a **custom Bangladeshi dataset** (9,133 images)
 - ✅ **29 sign categories**
 - ✅ Experimented with **YOLOv5, YOLOv7, YOLOv8, YOLOv11**
 - ✅ ResNet-based classification, finalized **ResNet50**
@@ -89,7 +89,7 @@ One of the strongest parts of this project is that the dataset is **custom built
 6. **Export**
    - Exported in YOLO format with Train/Valid/Test split
 
-✅ **Total Images:** 9,000+  
+✅ **Total Images:** 9,133  
 ✅ **Total Classes:** 29 categories  
 ✅ **Goal:** realistic Bangladeshi road scenarios (crowded, low-light, partial occlusion)
 
