@@ -1,0 +1,14 @@
+streamlit==1.32.2
+torch
+torchvision
+opencv-python
+Pillow
+numpy
+PyYAML
+streamlit-webrtc
+av
+tqdm
+seaborn
+matplotlib
+pandas
+scipy
