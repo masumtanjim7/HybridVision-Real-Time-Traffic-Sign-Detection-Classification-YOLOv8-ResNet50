@@ -1,0 +1,40 @@
+train: /kaggle/working/roadsign_data/train/images
+val: /kaggle/working/roadsign_data/valid/images
+test: /kaggle/working/roadsign_data/test/images
+nc: 29
+names:
+- Crossroads
+- Emergency Stopping
+- Emergency Stopping 250m
+- Give Way
+- Height Limit 5-7m
+- Hospital Ahead
+- Junction Ahead
+- Mosque Ahead
+- No Overtaking
+- No Pedestrians
+- No Vehicle Entry
+- Pedestrians Crossing
+- Petrol Pump Ahead
+- School Ahead
+- Sharp Left Turn
+- Sharp Right Turn
+- Side Road On Left
+- Side Road On Right
+- Speed Breaker
+- Speed Limit 20 km
+- Speed Limit 40Km
+- Speed Limit 80Km
+- Tolls 1 km Ahead
+- Tolls Ahead
+- Traffic Merges From Left
+- Traffic Merges From Right
+- Truck Lane
+- U Turn
+- Underpass Ahead
+roboflow:
+  workspace: road-sign-b4ilx
+  project: roadsign-bangladesh-wiigt
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/road-sign-b4ilx/roadsign-bangladesh-wiigt/dataset/2
